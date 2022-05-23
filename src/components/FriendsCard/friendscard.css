@@ -1,0 +1,26 @@
+.friends-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.fotos-profile img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    padding: 4px;
+    border-radius: 10px;
+
+}
+
+.fotos-profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+

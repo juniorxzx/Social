@@ -1,0 +1,23 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.tudo {
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.friends-content {
+    width: 400px;
+    padding-left: 5px;
+    display: flex; 
+    margin-left: 100px;
+}

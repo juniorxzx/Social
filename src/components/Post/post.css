@@ -1,0 +1,57 @@
+.post-content {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+    box-shadow: 7px 8px 8px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: solid 1px;
+}
+
+.user img {
+    width: 35px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.user p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.img-content img {
+    width: 450px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.reactions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.reactions button {
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.reactions button:hover {
+    color: rgb(65, 63, 63);
+}
+
+.reactions button:hover,
+button:focus {
+    color: rgb(6, 100, 12);
+    transform: translateX(10px) scale(1.2);
+}
