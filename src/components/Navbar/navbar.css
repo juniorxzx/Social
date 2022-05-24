@@ -37,7 +37,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-    animation: go-back 4s;
+    animation: go-back 2s;
 }
 
 @keyframes go-back {
@@ -92,6 +92,8 @@
     font-size: 30px;
 
 }
+
+
 
 .dp-menu ul li:hover ul {
     text-align: center;

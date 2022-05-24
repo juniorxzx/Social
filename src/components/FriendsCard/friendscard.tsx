@@ -24,6 +24,7 @@ function FriendsCard() {
                 <div className='grid-item'><img src={foto4} alt="" /></div>
             </div>
         </div>
+    
     );
 }
 export default FriendsCard;

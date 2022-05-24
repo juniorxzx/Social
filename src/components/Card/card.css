@@ -9,6 +9,7 @@
     justify-content: center;
     display: flex;
     padding: 20px;
+    flex-direction: column;
 }
 
 .icon {
@@ -19,5 +20,5 @@
     width: 400px;
     padding-left: 5px;
     display: flex; 
-    margin-left: 100px;
+    margin-right: 100px;
 }

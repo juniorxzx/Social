@@ -16,6 +16,7 @@ function Menu() {
                         <li> <a href="" className='img-menu'><img src={jr} alt="" /></a>
                             <ul>
                                 <li><a href="/">Perfil</a></li>
+                                <li><a href="/">Postar</a></li>
                                 <li><a href="/">Tema</a></li>
                                 <li><a href="/">Configurações</a></li>
 

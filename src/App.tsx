@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar/navbar';
 import Card from './components/Card/card';
-
 import './App.css';
 
 import {
@@ -12,15 +11,14 @@ import {
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/"></Route>
-        <Route path=""></Route>
-      </Routes>
-      <Card />
-
-    </Router>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/"></Route>
+            <Route path=""></Route>
+          </Routes>
+          <Card />
+        </Router>
   );
 }
 

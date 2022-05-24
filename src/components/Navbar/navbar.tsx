@@ -1,7 +1,6 @@
 import React from 'react';
 import { TiTree } from 'react-icons/ti';
 import Menu from './menu'
-
 import './navbar.css';
 
 
@@ -14,9 +13,11 @@ function Navbar() {
                 <div className="nav-content">
                     <div className="logo">
                         <TiTree />
-                        <h1 className="title">Nome</h1>
+                        <h1 className="title">Tree</h1>
                     </div>
-                    <div>
+
+
+                    <div >
                         <Menu></Menu>
                     </div>
                 </div>
